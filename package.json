@@ -1,0 +1,26 @@
+{
+  "name": "nailed-mappack-manager",
+  "version": "0.1.0",
+  "description": "Command line tool to package and deploy nailed mappacks",
+  "main": "nailed.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nailed/nailed-mappack-manager.git"
+  },
+  "author": "jk-5",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nailed/nailed-mappack-manager/issues"
+  },
+  "homepage": "https://github.com/nailed/nailed-mappack-manager",
+  "preferGlobal": true,
+  "bin": {
+    "nailed": "nailed.js"
+  },
+  "dependencies": {
+    "commander": "^2.6.0"
+  }
+}
