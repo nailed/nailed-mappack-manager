@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<game xmlns="http://nailed.jk-5.tk/GameConfig/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nailed.jk-5.tk/GameConfig/1.0.0 NailedGame.xsd">
+    <name>@@MPNAME@@</name>
+    <version></version>
+
+    <authors>
+        <author>
+            <name>Rixiot</name>
+            <role>Original game design and idea</role>
+        </author>
+    </authors>
+
+    <worlds>
+        <world default="true">
+            <name>default</name>
+            <generator>void</generator>
+            <difficulty>peaceful</difficulty>
+            <spawnpoint x="947" y="85" z="740" yaw="180"/>
+            <gamerules>
+                <commandBlockOutput>false</commandBlockOutput>
+            </gamerules>
+        </world>
+    </worlds>
+</game>

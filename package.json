@@ -21,6 +21,10 @@
     "nailed": "nailed.js"
   },
   "dependencies": {
-    "commander": "^2.6.0"
+    "archiver": "^0.14.3",
+    "commander": "^2.6.0",
+    "prompt": "^0.2.14",
+    "replacestream": "^2.0.0",
+    "xml2js": "^0.4.5"
   }
 }
